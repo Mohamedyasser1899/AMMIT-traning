@@ -1,0 +1,37 @@
+What is an Error Bar?
+
+An error bar is a line through a point on a graph, parallel to one of the axes,
+which represents the uncertainty or variation of the corresponding coordinate of the point.
+
+
+Why Include Error Bars on a Graph?
+
+Error bars can communicate the following information about your data:
+How spread the data are around the mean value (small SD bar = low spread, data are clumped around the mean; larger SD bar = larger spread, data are more variable from the mean).
+
+The reliability of the mean value as a representative number for the data set.  In other words, how accurately the mean value represents the data (small SD bar = more reliable, larger SD bar = less reliable).  It's important to note that just because you have a larger SD, it does not indicate your data is not valid.  Biological measurements are notoriously variable.
+​
+The likelihood of there being a significant difference between between data sets.  More on this below...
+What do Error Bars Indicate about Statistical Significance?
+
+A "significant difference" means that the results that are seen are most likely not due to chance or sampling error.  In any experiment or observation that involves sampling from a population, there is always the possibility that an observed effect would have occurred due to sampling error alone.  But if result is "significant,"  then the investigator may conclude that the observed effect actually reflects the characteristics of the population rather than just sampling error or chance.  
+
+
+
+Error bar charts represent the variability of data and indicate the error (or uncertainty) in a reported measurement. Error bars help determine whether differences are statistically significant. Error bars can also suggest goodness of fit for a given function.
+
+
+
+As known as Bar Graph or Column Graph.
+
+The classic Bar Chart uses either horizontal or vertical bars (column chart) to show discrete, numerical comparisons across categories. One axis of the chart shows the specific categories being compared and the other axis represents a discrete value scale.
+
+Bars Charts are distinguished from Histograms, as they do not display continuous developments over an interval. Bar Chart's discrete data is categorical data and therefore answers the question of "how many?" in each category.
+
+One major flaw with Bar Charts is that labelling becomes problematic when there are a large number of bars.
+
+Bar plots with error bars are very frequently used in the environmental sciences to represent the variation in a continuous variable within one or more categorical variables. These are not always straightforward to make with the base functions in R. This page introduces you to making these plots with the package ggplot2.
+
+Before you get started, read the page on the basics of plotting with ggplot and install the package ggplot2.
+
+library(ggplot2)
